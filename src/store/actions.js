@@ -37,6 +37,9 @@ export default (state = initialState , action) => {
         })
         return {categories,products,activeCat};
 
+
+        case 'RESET':
+                return initialState;
     } // end of switch 
 
 } // end of reducer function 
