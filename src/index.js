@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-// import './app.scss';
+// to be able to provide our store to app 
+import { Provider } from 'react-redux';
 import App from './app.js';
 
-function Entry(){
+// import './app.scss';
+
+// Import store 
+
+function Entry() {
     return (
-        <React.Fragment>
+        <Provider store={store}>
             <App />
-        </React.Fragment>
+        </Provider>
     )
 }
 
 const rootPoint = document.getElementById('root');
-ReactDom.render(<Entry /> , rootPoint);
+ReactDom.render(<Entry />, rootPoint);
