@@ -6,7 +6,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/401-advanced-javascript-Nawal/Lab-36-E-Commerce-Application.git"
@@ -26,5 +26,17 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-mock-store": "^1.5.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>React Hooks API - To Do List @ Nawal Suliman</footer>
+    <footer>Application State with Redux - E-Commerce Application @ Nawal Suliman</footer>
   );
 };
 
