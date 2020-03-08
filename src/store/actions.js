@@ -17,29 +17,38 @@ let initialState = {
 /*********************************************** Reducer **********************************************************/ 
 export default (state = initialState , action) => {
 
+    console.log('state.products : ', state.products);
     // type = action.type , payload = action.payload  
     let { type , payload } = action;
 
     switch(type){
         case 'CATTOPRO':
             let activeCat = payload;
-        let categories = state.categories.map(cat => {
+        const categories = state.categories.map(cat => {
+            // console.log('cat in actions : ', cat);
             if(cat.name === payload){
               return {name:cat.name,displayName:cat.displayName,desp:cat.desp}
             }
             return cat;
-        })
-        let products = state.products.map( pro => {
-            if(pro.catName === activeCat){
+        });
+        console.log('state.products : ', state.products);
+        const products = state.products.map( pro => {
+            console.log('pro in actions : ', pro);
+            if(pro.catName === payload){
                 return {catName:pro.catName,name:pro.name,desc:pro.desc,price:pro.price,invCount:pro.invCount}
             }
             return pro;
-        })
+        });
+        console.log('categories : ', categories);
+
         return {categories,products,activeCat};
 
 
         case 'RESET':
                 return initialState;
+
+        default:
+            return state;
     } // end of switch 
 
 } // end of reducer function 

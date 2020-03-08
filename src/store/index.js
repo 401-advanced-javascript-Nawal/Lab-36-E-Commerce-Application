@@ -1,12 +1,12 @@
 import { createStore, combineReducers } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import action from './actions.js';
+import catPro from './actions.js';
 
 // combine all reducer in one JS File 
-let reducers = combineReducers({ action });
+let reducers = combineReducers({ catPro });
 
 const store = () => {
     return createStore(reducers,composeWithDevTools());
 }
 
-export default store;
+export default store();

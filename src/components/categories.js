@@ -10,7 +10,7 @@ const Status = props => {
 }
 
 const mapStateToProps = state => ({
-    activeCat:state.action.activeCat
-})
+    activeCat: state.catPro.activeCat
+});
 
 export default connect(mapStateToProps)(Status);

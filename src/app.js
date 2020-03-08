@@ -2,16 +2,16 @@ import React from 'react';
 import Header from './modules/Header.js';
 import Footer from './modules/Footer.js';
 
-// import components
+import Categories from './components/categories.js';
+import Products from './components/products.js';
 
-function App(){
+export default props => {
     return (
         <>
         <Header />
-        {/* < components> */}
+        <Categories />
+        <Products />
         <Footer />
         </>
     )
 }
-
-export default App;

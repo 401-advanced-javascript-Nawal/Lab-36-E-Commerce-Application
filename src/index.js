@@ -6,7 +6,7 @@ import App from './app.js';
 
 // import './app.scss';
 
-// Import store 
+import store from './store/index.js';
 
 function Entry() {
     return (
