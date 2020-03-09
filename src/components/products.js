@@ -18,6 +18,7 @@ const renderProducts = props => {
             <p>  Name : {cat.name} </p>
             <p> Display Name : {cat.displayName}</p>
             <p> Description : {cat.desp}</p>
+        {/* <p>{props.activeCat}</p> */}
           </li>;
         })}
       </ul>

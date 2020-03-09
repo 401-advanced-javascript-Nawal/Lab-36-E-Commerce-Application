@@ -22,7 +22,7 @@ export default (state = initialState, action) => {
 
   switch (type) {
     case 'CATTOPRO':
-      let activeCat = payload;
+      // let activeCat = payload;
       const categories = state.categories.map(cat => {
         // console.log('cat in actions : ', cat);
         if (cat.name === payload) {
