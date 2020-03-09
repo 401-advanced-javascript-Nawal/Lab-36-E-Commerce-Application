@@ -6,12 +6,15 @@ import { catToPro , reset } from '../store/actions.js';
 const renderProducts = props => {
     console.log('here',props)
     return (
-        <section>
+        <section className="catSec">
             <ul>
                 {props.activeCat.categories.map(cat => {
                     // console.log('cat : ', cat.name);
                         return <li onClick= {() => props.catToPro(cat.name)} key={cat.name}>
-                            {cat.name} - {cat.displayName} - {cat.desp}
+                            <p id="catTitle"> Category Details : </p>
+                            <p>  Name : {cat.name} </p>
+                            <p> Display Name : {cat.displayName}</p>
+                             <p> Description : {cat.desp}</p>
                         </li>
                     })}
             </ul>
