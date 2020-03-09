@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { catToPro , reset } from '../store/actions.js';
 
 const renderProducts = props => {
-  console.log('here',props);
+  console.log('props',props);
   return (
     <section className="catSec">
       <ul>
