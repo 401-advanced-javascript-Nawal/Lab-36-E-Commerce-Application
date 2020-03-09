@@ -1,4 +1,5 @@
 {
+    "parser": "babel-eslint",
     "env": {
     "browser": true,
     "node": true,
@@ -17,7 +18,7 @@
     "rules": {
     "no-console": "off",
     "indent": [
-    "error",
+    "warn",
     2
     ],
     "quotes": [

@@ -9,11 +9,11 @@ import './app.scss';
 import store from './store/index.js';
 
 function Entry() {
-    return (
-        <Provider store={store}>
-            <App />
-        </Provider>
-    )
+  return (
+    <Provider store={store}>
+      <App />
+    </Provider>
+  );
 }
 
 const rootPoint = document.getElementById('root');

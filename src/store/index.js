@@ -6,7 +6,7 @@ import catPro from './actions.js';
 let reducers = combineReducers({ catPro });
 
 const store = () => {
-    return createStore(reducers,composeWithDevTools());
-}
+  return createStore(reducers,composeWithDevTools());
+};
 
 export default store();

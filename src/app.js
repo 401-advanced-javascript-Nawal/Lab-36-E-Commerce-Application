@@ -6,12 +6,12 @@ import Categories from './components/categories.js';
 import Products from './components/products.js';
 
 export default props => {
-    return (
+  return (
         <>
         <Header />
         <Products />
         <Categories />
         <Footer />
         </>
-    )
-}
+  );
+};
