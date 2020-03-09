@@ -1,9 +1,9 @@
-# Lab-36-E-Commerce-Application
+# Lab-37-E-Commerce-Application - Combined Reducers
 
 ### Author: Nawal Suliman 
 
 ### Links and Resources
-- [submission PR](https://github.com/401-advanced-javascript-Nawal/Lab-36-E-Commerce-Application/pull/1)
+- [submission PR]()
 - [ci/cd](https://github.com/401-advanced-javascript-Nawal/Lab-36-E-Commerce-Application/actions)
 
 ### Setup
@@ -18,4 +18,4 @@
 - npm run lint 
 
 #### UML
-- [UML](https://github.com/401-advanced-javascript-Nawal/Lab-36-E-Commerce-Application/blob/app-state-redux/20200309_052235.jpg)
+- [UML]()
