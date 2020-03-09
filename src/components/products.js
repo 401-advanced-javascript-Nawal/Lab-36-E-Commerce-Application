@@ -4,16 +4,17 @@ import { connect } from 'react-redux';
 import { catToPro , reset } from '../store/actions.js';
 
 const renderProducts = props => {
+    console.log('here',props)
     return (
         <section>
             <ul>
-                {props.categories.map(cat => {
+                {props.activeCat.categories.map(cat => {
+                    // console.log('cat : ', cat.name);
                         return <li onClick= {() => props.catToPro(cat.name)} key={cat.name}>
                             {cat.name} - {cat.displayName} - {cat.desp}
                         </li>
                     })}
             </ul>
-            <button onClick={props.reset}> Reset</button>
         </section>
     )
 } // end of renderProducts function 

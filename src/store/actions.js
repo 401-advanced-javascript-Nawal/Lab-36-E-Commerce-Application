@@ -39,7 +39,7 @@ export default (state = initialState , action) => {
             }
             return pro;
         });
-        console.log('categories : ', categories);
+        // console.log('categories : ', categories);
 
         return {categories,products,activeCat};
 

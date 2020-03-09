@@ -9,8 +9,8 @@ export default props => {
     return (
         <>
         <Header />
-        <Categories />
         <Products />
+        <Categories />
         <Footer />
         </>
     )
