@@ -1,5 +1,6 @@
 import { createStore, combineReducers } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
+
 import catAct from './categories-actions.js';
 import proAct from './products-actions.js';
 

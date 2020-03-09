@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { catToPro, reset } from '../store/actions.js';
+import { catToPro,disable, reset } from '../store/categories-actions.js';
 
 const Status = props => {
   return (
@@ -29,11 +29,10 @@ const Status = props => {
 };
 
 const mapStateToProps = state => ({
-  activeCat: state.catPro,
-  activeCatN: state.catPro.activeCat,
-
+  activeCat: state.catAct,
+  activeCatN: state.proAct.activeCat,
 });
 
-const mapDispatchToProps = { catToPro, reset };
+const mapDispatchToProps = { catToPro,disable,reset };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Status);
