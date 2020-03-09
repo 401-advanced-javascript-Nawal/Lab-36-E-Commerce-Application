@@ -19,4 +19,3 @@
 
 #### UML
 - [UML]()
-- [pg deployment]()
