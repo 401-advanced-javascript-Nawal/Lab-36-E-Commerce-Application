@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/401-advanced-javascript-Nawal/Lab-36-E-Commerce-Application/issues"
   },
-  "homepage": "https://Nsuliman.github.io//Lab-36-E-Commerce-Application",
+  "homepage": "https://Nsuliman.github.io/Lab-36-E-Commerce-Application/",
   "dependencies": {
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
