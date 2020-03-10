@@ -24,7 +24,7 @@ export default (state = initialState , action) => {
   switch(type){
   case 'CATTOPRO':
     let activeCat = payload;
-    const categories = state.categories.map(cat => {
+    let categories = state.categories.map(cat => {
       // console.log('cat in actions : ', cat);
       if(cat.name === payload){
         return {name:cat.name,displayName:cat.displayName,desp:cat.desp};
@@ -32,7 +32,7 @@ export default (state = initialState , action) => {
       return cat;
     });
     console.log('state.products : ', state.products);
-    const products = state.products.map( pro => {
+    let products = state.products.map( pro => {
       console.log('pro in actions : ', pro);
       if(pro.catName === payload){
         return {catName:pro.catName,name:pro.name,desc:pro.desc,price:pro.price,invCount:pro.invCount};
