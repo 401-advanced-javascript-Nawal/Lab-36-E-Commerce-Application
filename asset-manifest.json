@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Lab-36-E-Commerce-Application/static/css/main.b01c927f.chunk.css",
+    "main.js": "/Lab-36-E-Commerce-Application/static/js/main.a8aa9025.chunk.js",
+    "main.js.map": "/Lab-36-E-Commerce-Application/static/js/main.a8aa9025.chunk.js.map",
+    "runtime-main.js": "/Lab-36-E-Commerce-Application/static/js/runtime-main.f427c5d8.js",
+    "runtime-main.js.map": "/Lab-36-E-Commerce-Application/static/js/runtime-main.f427c5d8.js.map",
+    "static/js/2.7aaa2e80.chunk.js": "/Lab-36-E-Commerce-Application/static/js/2.7aaa2e80.chunk.js",
+    "static/js/2.7aaa2e80.chunk.js.map": "/Lab-36-E-Commerce-Application/static/js/2.7aaa2e80.chunk.js.map",
+    "index.html": "/Lab-36-E-Commerce-Application/index.html",
+    "precache-manifest.0dd038e9832bffffa72853901df1da4b.js": "/Lab-36-E-Commerce-Application/precache-manifest.0dd038e9832bffffa72853901df1da4b.js",
+    "service-worker.js": "/Lab-36-E-Commerce-Application/service-worker.js",
+    "static/css/main.b01c927f.chunk.css.map": "/Lab-36-E-Commerce-Application/static/css/main.b01c927f.chunk.css.map",
+    "static/js/2.7aaa2e80.chunk.js.LICENSE.txt": "/Lab-36-E-Commerce-Application/static/js/2.7aaa2e80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f427c5d8.js",
+    "static/js/2.7aaa2e80.chunk.js",
+    "static/css/main.b01c927f.chunk.css",
+    "static/js/main.a8aa9025.chunk.js"
+  ]
+}
