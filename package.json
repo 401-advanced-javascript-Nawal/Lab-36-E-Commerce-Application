@@ -24,6 +24,7 @@
   },
   "homepage": "https://Nsuliman.github.io/Lab-36-E-Commerce-Application/",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
